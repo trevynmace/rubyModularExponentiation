@@ -1,3 +1,4 @@
+# implementation for algorithm 1
 def base(n, b)
     q = n
     a = []
@@ -8,6 +9,7 @@ def base(n, b)
   return a
 end
 
+# implementation for algorithm 5
 def mod(b, n, m)
     a = base(n, 2)
     x = 1
